@@ -4065,3 +4065,7 @@ span#bd-status:before {
 .contentHoveredVoice-3qGNKh{
 	background-color: rgba(0,234,255,.15);
 }
+
+.contentDefaultVoice-311dxZ, .contentHoveredVoice-3qGNKh{
+	transition: background 1s,background-color .35s;
+}
