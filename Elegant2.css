@@ -682,28 +682,28 @@ h6 {
 }
 
 .theme-dark .searchResultsWrap-2DKFzt {
-    background-color: #000000;
+    background-color: #000000!important;
 }
 
 .theme-dark .searchHeader-1l-wpR {
-    background-color: #000000;
+    background-color: #000000!important;
 }
 
 .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
-    background-color: #000000;
+    background-color: #000000!important;
 }
 
 .theme-dark .searchResult-3pzFAB .hit-NLlWXA {
-    background-color: #000000;
-    box-shadow: 0 0 10px 6px #001342;
+    background-color: #000000!important;
+    box-shadow: 0 0 10px 6px #001342!important;
 }
 
 .theme-dark .searchResult-3pzFAB:before {
-    background-image: linear-gradient(0deg,rgba(47,49,54,0),#000000);
+    background-image: linear-gradient(0deg,rgba(47,49,54,0),#000000)!important;
 }
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG {
-    background-color: transparent;
+    background-color: transparent!important;
 }
 .guilds-1q_RqH li.active .guildInner-3DSoA4:before,
 .guilds-1q_RqH li.unread .guildInner-3DSoA4:before {
@@ -7507,7 +7507,7 @@ strong.username-_4ZSMR.da-username:after {
 
 .theme-dark .divider-3gKybi span,
 .theme-dark .divider-3gKybi:before {
-    background-color: transparent;
+    background-color: transparent!important;
 }
 
 .divider-3gKybi:before {
