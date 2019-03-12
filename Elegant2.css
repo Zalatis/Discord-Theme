@@ -4959,64 +4959,6 @@ body {
     border: 1px solid rgba(0, 255, 255, .25)!important
 }
 
-.ui-switch-checkbox:checked+.ui-switch {
-    background: rgba(0, 126, 134, .4)!important;
-    border: 1px solid rgba(0, 243, 255, .5)!important
-}
-
-.ui-switch:before {
-    top: 2px!important;
-    left: 2px!important;
-    background: rgba(0, 194, 255, .45)!important;
-    border-radius: 0!important
-}
-
-.ui-switch-wrapper .ui-switch-checkbox:checked+.ui-switch:before {
-    background-color: rgba(0, 243, 255, .7)!important;
-    border-radius: 0 8px 8px 0!important;
-    transform: translateX(16px)
-}
-
-.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch {
-    background-color: rgba(0, 241, 255, .5)!important
-}
-
-.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox+.ui-switch {
-    background-color: rgba(0, 241, 255, .3)!important
-}
-
-.bda-right .ui-switch {
-    height: 116px;
-    cursor: pointer;
-    width: 40px;
-    transform: translateY(-19px);
-    transition: all .25s ease
-}
-
-.bda-right input.ui-switch-checkbox {
-    opacity: 0
-}
-
-.bda-right .ui-switch:before {
-    content: "";
-    width: 18px;
-    height: 96.5%;
-    position: absolute;
-    left: 2px;
-    transition: all .25s ease
-}
-
-.userPopout-3XzG_A .footer-1fjuF6 .quick-message {
-    background: rgba(0, 0, 0, .95);
-    margin: 12px 10px;
-    width: 92%
-}
-
-.userPopout-3XzG_A .footer-1fjuF6 {
-    border-top: 0!important;
-    border: 2px solid #184554
-}
-
 .userPopout-3XzG_A .headerDiscriminator-3fLlCR {
     padding-left: 5px;
     font-weight: 700
@@ -5842,6 +5784,63 @@ body {
     background-color: transparent!important;
     border-color: transparent!important;
     border-radius: 0!important
+}
+.ui-switch-checkbox:checked+.ui-switch {
+    background: rgba(0, 126, 134, .4)!important;
+    border: 1px solid rgba(0, 243, 255, .5)!important
+}
+
+.ui-switch:before {
+    top: 2px!important;
+    left: 2px!important;
+    background: rgba(0, 194, 255, .45)!important;
+    border-radius: 0!important
+}
+
+.ui-switch-wrapper .ui-switch-checkbox:checked+.ui-switch:before {
+    background-color: rgba(0, 243, 255, .7)!important;
+    border-radius: 0 8px 8px 0!important;
+    transform: translateX(16px)
+}
+
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch {
+    background-color: rgba(0, 241, 255, .5)!important
+}
+
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox+.ui-switch {
+    background-color: rgba(0, 241, 255, .3)!important
+}
+
+.bda-right .ui-switch {
+    height: 116px;
+    cursor: pointer;
+    width: 40px;
+    transform: translateY(-19px);
+    transition: all .25s ease
+}
+
+.bda-right input.ui-switch-checkbox {
+    opacity: 0
+}
+
+.bda-right .ui-switch:before {
+    content: "";
+    width: 18px;
+    height: 96.5%;
+    position: absolute;
+    left: 2px;
+    transition: all .25s ease
+}
+
+.userPopout-3XzG_A .footer-1fjuF6 .quick-message {
+    background: rgba(0, 0, 0, .95);
+    margin: 12px 10px;
+    width: 92%
+}
+
+.userPopout-3XzG_A .footer-1fjuF6 {
+    border-top: 0!important;
+    border: 2px solid #184554
 }
 
 #app-mount::-webkit-scrollbar-track:hover {
@@ -7252,8 +7251,8 @@ span#bd-status:before {
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild .avatar-small,
 .iconSizeLarge-161qtT,
 .theme-dark .guildsError-3cFMtY {
-    height: 40px;
-    width: 40px
+    height: 50px;
+    width: 50px;
 }
 
 .status-oxiHuE {
@@ -7644,4 +7643,12 @@ strong.username-_4ZSMR.da-username:after {
 
 .theme-dark .contentRegion-3nDuYy {
     background: #000000;
+}
+
+.theme-dark .container-3gCOGc { 
+    background-color: #000000;
+} 
+
+.theme-dark .wrapper-1Rf91z { 
+    background-color: #000000;
 }
