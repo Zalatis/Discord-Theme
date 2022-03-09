@@ -1,0 +1,31 @@
+/**
+ * @name         BlackTheme
+ * @description  BlackTheme
+ * @author       Zalati
+ * @version      1.0
+ * @donate       https://zalati.fr/dons/
+ * @source       https://zalati.fr
+ */
+
+ .theme-dark {
+  --background-primary: #000!important;
+  --background-secondary: #000!important;
+  --background-secondary-alt: #000!important;
+  --background-tertiary: #000!important;
+  --background-accent: #000!important;
+  --background-floating: #000!important;
+  --activity-card-background: #000!important;
+  --channeltextarea-background: #000!important
+}
+
+.sidebarRegionScroller-3MXcoP {
+  background: #000!important;
+}
+
+.peopleColumn-29fq28 {
+  background: #000;
+}
+
+.tabBody-2dgbAs {
+    background-color: #000;
+}
